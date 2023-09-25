@@ -494,7 +494,7 @@ a:focus {
   position: absolute;
   left: 0;
   top: 0;
-  background-color: rgba(67, 17, 125, 0.9);
+  background-color: #dc3545;
 }
 
 .service_section .service_container .box:hover .link_box {
@@ -512,7 +512,7 @@ a:focus {
 }
 
 .us_section {
-  background-color: #3c0e78;
+  background-color: #dc3545;
   color: #ffffff;
 }
 
@@ -630,7 +630,7 @@ a:focus {
 
 .result_section {
   color: #ffffff;
-  background-color: #3c0e78;
+  background-color: #dc3545;
 }
 
 .result_section .row {
@@ -683,9 +683,53 @@ a:focus {
   color: #f8bc1a;
 }
 
+/* Team section */
+.team_section {
+  background-color: #161616;
+  color: #ffffff;
+}
+
+.team_section .team_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.team_section .team_container .box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+  margin: 37px;
+}
+
+.team_section .team_container .box .img-box {
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  jteamtify-content: center;
+}
+
+.team_section .team_container .box .img-box img {
+  max-width: 100%;
+}
+
 /* info section */
 .info_section {
-  background-color: #161616;
+  background-color: #dc3545;
   color: #ffffff;
 }
 
